@@ -116,8 +116,8 @@ viz <- ggplot(meteorites, aes(reclong, reclat)) +
 vis_plotly <- ggplotly(viz)
 
 ## publish to plotly account
-# Sys.setenv("plotly_username"="bdun9")
-# Sys.setenv("plotly_api_key"= "ukqr128tmk")
+# Sys.setenv("plotly_username"="####")
+# Sys.setenv("plotly_api_key"= "####")
 # plotly_POST(vis_plotly)
 
 
